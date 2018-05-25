@@ -1,1 +1,1 @@
-TESTS = test_main.sh
+TESTS = test_server.sh

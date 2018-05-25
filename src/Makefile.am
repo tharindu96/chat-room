@@ -1,7 +1,7 @@
-AM_CFLAGS = @AM_CFLAGS@
-AM_LDFLAGS = @AM_LDFLAGS@
+AM_CFLAGS = -g3 -O0 -std=gnu99
+AM_LDFLAGS = -g3 -O0
 
-bin_PROGRAMS = main
+bin_PROGRAMS = server
 
-main_SOURCES = main.c
+server_SOURCES = server.c socket_helper.c
 
