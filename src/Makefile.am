@@ -1,0 +1,7 @@
+AM_CFLAGS = @AM_CFLAGS@
+AM_LDFLAGS = @AM_LDFLAGS@
+
+bin_PROGRAMS = main
+
+main_SOURCES = main.c
+
