@@ -3,5 +3,5 @@ AM_LDFLAGS = -g3 -O0
 
 bin_PROGRAMS = server
 
-server_SOURCES = server.c socket_helper.c
+server_SOURCES = server.c
 

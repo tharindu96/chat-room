@@ -31,3 +31,6 @@ config.log
 config.h
 
 .vscode
+
+# binaries
+src/server
