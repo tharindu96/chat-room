@@ -95,7 +95,8 @@ int main(int argc, char **argv)
 
 int server_tcp_listen(char *local_port)
 {
-	struct addrinfo hints, *res, *p;
+	struct addrinfo hints;
+	struct addrinfo *res, *p;
 	int status, yes = 1, sockfd = -1;
 
 	memset(&hints, 0, sizeof(hints));

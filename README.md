@@ -1,6 +1,6 @@
 # Chat Room
 
-Multi user chat room server, with a custom client
+Single Chat room that clients can connect and chat.
 
 ---
 
@@ -8,18 +8,14 @@ Multi user chat room server, with a custom client
 
 ### Features
 
-- User to User direct chat
-- Multiple Chat Rooms
-- Non-Blocking IO Server
+- Users can select a username
 
-### Implemention Details
+### Implementation Details
 
 - 2 threads for handling the listening socket and the clients
 
 ---
 
 ## Client
-
-- using cdk (curses development kit) for tabbed or gtk3 IDK
 
 ---

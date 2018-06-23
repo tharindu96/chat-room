@@ -22,6 +22,14 @@ AC_PROG_CC
 # Checks for typedefs, structures, and compiler characteristics.
 
 # Checks for library functions.
+AX_PTHREAD
+if test "x$ax_pthread_ok" = xno; then
+    AC_MSG_ERROR([requires pthreads])
+fi
+test -z "$PTHREAD_LIBS" && PTHREAD_LIBS="-lpthread"
+
+CFLAGS="$CFLAGS -std=gnu99 $PTHREAD_CLAGS"
+LIBS="$LIBS $PTHREAD_LIBS"
 
 AC_CONFIG_FILES([Makefile\
 		 src/Makefile\
