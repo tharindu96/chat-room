@@ -19,3 +19,9 @@ Single Chat room that clients can connect and chat.
 ## Client
 
 ---
+
+
+## TODO
+
+[ ] Transfer to cmake
+[ ] Refactor Code
